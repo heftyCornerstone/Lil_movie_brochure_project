@@ -1,0 +1,82 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 460px;
+    margin-bottom: 100px;
+    background-color: rgb(48, 48, 48);
+}
+.category_inner{
+    width: 90%;
+}
+.category_inner_title h2{
+    margin-top: 0;
+    color: white;
+}
+.category_inner_slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+.sliderBtn{
+    position: relative;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.movieCardsContainer{
+    overflow-x: hidden;
+}
+@media screen and (max-width: 2200px){
+    .contentful {width: 1470px;}
+}
+@media screen and (max-width: 2000px){
+    .contentful {width: 1260px;}
+}
+@media screen and (max-width: 1800px){
+    .contentful {width: 1260px;}
+}
+@media screen and (max-width: 1600px){
+    .contentful {width: 1050px;}
+}
+@media screen and (max-width: 1400px){
+    .contentful {width: 840px;}
+}
+@media screen and (max-width: 1200px){
+    .contentful {width: 630px;}
+}
+@media screen and (max-width: 1000px){
+    .contentful {width: 420px;}
+}
+@media screen and (max-width: 800px){
+    .contentful {width: 210px;}
+}
+
+.movieCardsBoard{
+    display: flex;
+    width: max-content;
+    height: 330px;
+    transition: transform 0.5s ease;
+}
+/*---------------------------------------------------no movies---------------------------------------------------*/
+.noContents{
+    width:100%;
+}
+.noMoviesBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(202, 202, 202);
+    font-size: 25px;
+    background-color: rgb(24, 24, 24);
+}
+/*---------------------------------------------------no movies---------------------------------------------------*/
